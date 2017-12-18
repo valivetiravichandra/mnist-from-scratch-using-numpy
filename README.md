@@ -1,2 +1,3 @@
 # mnist-from-scratch-using-numpy
 Classifying hand written digits using numpy from scratch
+In this project I have implemented softmax regression from scratch. This is a 2 layer feed forward neural network with one hidden layer and one output layer. The neural network class accepts parameters (input_nodes, hidden_nodes, output_nodes, learning_rate). We minimize the loss function i.e cross entropy loss using gradient descent. Activation function for hidden layer is relu, and activation on output is softmax as we have 10 digits to classify. Each output node(Total-10) gives probability of the input being that digit. I have even added regularization step to prevent the model from overfitting.
